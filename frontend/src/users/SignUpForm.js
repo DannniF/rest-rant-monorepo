@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react"
-import { useHistory, useParams } from "react-router"
+import { useState} from "react"
+import { useHistory} from "react-router"
 
 function SignUpForm() {
 
@@ -67,7 +67,6 @@ function SignUpForm() {
 							name="email"
 						/>
 					</div>
-					<div className="row">
 					<div className="col-sm-6 form-group">
 						<label htmlFor="password">Password</label>
 						<input
@@ -81,7 +80,6 @@ function SignUpForm() {
 						/>
 					</div>
 				</div>
-			</div>
 				<input className="btn btn-primary" type="submit" value="Sign Up" />
 			</form>
 		</main>
